@@ -1,17 +1,14 @@
 <template>
-  <Header />
-  <h1 class="text-3xl font-bold underline font-2xl">
-    Hello world!
-  </h1>
+  <AccueilVue />
 </template>
 
 <script>
-import Header from './components/Header.vue'
+import AccueilVue from './AccueilVue.vue'
 
 export default {
   name: 'App',
   components: {
-    Header
+    AccueilVue
   }
 }
 </script>

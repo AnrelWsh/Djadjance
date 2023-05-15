@@ -7,13 +7,18 @@
     src: url(../src/assets/Typographie/Founders_Grotesk/Founders_Grotesk/FoundersGrotesk-Medium.otf) format('opentype');
 }
 @font-face {
-    font-family: "Grotesk-Bold";
-    src: url(../src/assets/Typographie/Founders_Grotesk/Founders_Grotesk/FoundersGrotesk-Bold.otf) format('opentype');
+    font-family: "Grotesk-Reg";
+    src: url(../src/assets/Typographie/Founders_Grotesk/Founders_Grotesk/FoundersGrotesk-Regular.otf) format('opentype');
 }
 
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: "Grotesk-Bold";
+    font-family: "Grotesk-Med";
+    color: rgba(55, 58, 64, 1);
+}
+
+.grotesk-reg{
+    font-family: "Grotesk-Reg";
 }
