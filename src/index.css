@@ -2,3 +2,18 @@
 @tailwind components;
 @tailwind utilities;
 
+@font-face {
+    font-family: "Grotesk-Med";
+    src: url(../src/assets/Typographie/Founders_Grotesk/Founders_Grotesk/FoundersGrotesk-Medium.otf) format('opentype');
+}
+@font-face {
+    font-family: "Grotesk-Bold";
+    src: url(../src/assets/Typographie/Founders_Grotesk/Founders_Grotesk/FoundersGrotesk-Bold.otf) format('opentype');
+}
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Grotesk-Bold";
+}
