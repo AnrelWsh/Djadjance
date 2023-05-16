@@ -22,6 +22,10 @@
 .grotesk-reg{
     font-family: "Grotesk-Reg";
 }
+.projVid{
+    width: 80vw;
+    margin: auto;
+}
 
 .video-minia{
     width: 80vw;
@@ -40,9 +44,28 @@
     margin: auto;
 }
 
-.projImg{
+.projImg {
     width: 35vw;
-    height: 50dvh;
+    height: 50vh;
     object-fit: cover;
+}
+
+.projLink{
+    position: relative;
     margin-bottom: 32px;
 }
+
+.projLink:before {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width: 0%;
+    bottom: 0;
+    transition: width 0.5s ease-out;
+    background: linear-gradient(to right, rgba(160, 164, 242, 1) 0%, rgb(78, 82, 166) 60%, transparent 100%);
+    opacity: 0.5;
+  }
+  .projLink:hover:before {
+    width: 100%;
+  }
