@@ -22,3 +22,27 @@
 .grotesk-reg{
     font-family: "Grotesk-Reg";
 }
+
+.video-minia{
+    width: 80vw;
+    margin: auto;
+    height: 50dvh;
+    object-fit: cover;
+    object-position: top;
+    margin-bottom: 32px;
+}
+
+.projImgDiv{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80vw;
+    margin: auto;
+}
+
+.projImg{
+    width: 35vw;
+    height: 50dvh;
+    object-fit: cover;
+    margin-bottom: 32px;
+}
