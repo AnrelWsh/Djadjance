@@ -5,7 +5,7 @@
 
 <script>
 import Header from './components/Header.vue'
-import AccueilVue from './AccueilVue.vue'
+import AccueilVue from './views/AccueilView.vue'
 
 export default {
   name: 'App',
