@@ -6,7 +6,7 @@ import HomePrez from '../components/HomePrez.vue'
 import AccueilContent from '../components/AccueilContent.vue'
 
 export default {
-  name: 'ProjetsVue',
+  name: 'ProjetsView',
   components: {
     HomePrez,
     AccueilContent

@@ -5,26 +5,19 @@
         <img class="w-[5vw] mx-32" src="../assets/Logo/Logo.png" alt="logo">  
       </a>
       <div class="flex flex-row gap-16 px-16">
-        <a href="">
-          <p class="navTitle">Accueil</p>
-        </a>
-        <a href="">
-          <p class="navTitle">Projets</p>
-        </a>
-        <a href="">
-          <p class="navTitle">À propos</p>
-        </a>
+        <router-link class="navTitle" to="/accueil">Accueil</router-link>
+        <router-link class="navTitle" to="/projets">Projets</router-link>
+        <router-link class="navTitle" to="/apropos">A propos</router-link>
       </div>
     </div>
 
     <div class="w-[4px] h-[16vh] bg-gris"></div>
    
     <div class="m-auto py-4">
-      <a href="">
-        <p class="contactTitle">Me contacter</p>
-      </a>
+      <router-link class="contactTitle" to="/contact">Me contacter</router-link>
     </div>
   </nav>
+  <router-view/>
 </template>
 
 <script>
