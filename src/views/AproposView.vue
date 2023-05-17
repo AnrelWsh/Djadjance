@@ -1,17 +1,14 @@
 <template>
-  
-  <AccueilContent />
+  <AproposContent />
 </template>
 
 <script>
-import HomePrez from '../components/HomePrez.vue'
-import AccueilContent from '../components/AccueilContent.vue'
+import AproposContent from '../components/AproposContent.vue'
 
 export default {
   name: 'AproposView',
   components: {
-    HomePrez,
-    AccueilContent
+    AproposContent
   }
 }
 </script>

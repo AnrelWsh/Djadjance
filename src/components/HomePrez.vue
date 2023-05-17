@@ -1,6 +1,6 @@
 <template>
   <div class="flex flex-row border-b-4 border-gris h-[54.5vh]">
-    <div class="w-[50vw] p-24">
+    <div class=" flex flex-col justify-center w-[50vw] p-24">
       <h2 class="text-[32px]">BIENVENUE SUR MON SITE,</h2>
       <p class="grotesk-reg text-[32px]">Bonjour, je m'appelle Yanis Djadja, je suis étudiant à l'IIM en direction artistique, Interactivité et UX/UI !</p>
     </div>
