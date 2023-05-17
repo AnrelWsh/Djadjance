@@ -1,20 +1,12 @@
 <template>
   <div>
-
-    <h2 class="text-[32px] m-12 text-center">MON SHOWREEL</h2>
-
     <div class="projVid">
       <a class="projLink" href="https://www.youtube.com/watch?v=fcf5cBcmLyI" data-lity>
         <img class="video-minia" src="../assets/HOMEPAGE/ShowReel.png" alt="projet vidéo showreel">
         <p class="projTextCat">AFTER EFFECT & ILLUSTRATOR</p>
         <p class="projTextTitre">SHOWREEL</p>
       </a>
-      <!-- <iframe width="885" height="498" src="https://www.youtube.com/embed/fcf5cBcmLyI" title="Create a Custom Mouse Cursor In Webflow" frameborder="0" allow="accelerometer; autoplay; clipboard-write; web-share" allowfullscreen>
-        <img src="../assets/HOMEPAGE/ShowReel.png" alt="showreel">
-      </iframe> -->
     </div>
-
-    <h2 class="text-[32px] m-12 text-center">MES TRAVAUX</h2>
 
     <div class="projImgDiv">
       <a class="projLink" href="">
@@ -29,6 +21,27 @@
       </a>
     </div>
 
+    <div class="projVid">
+      <a class="projLink" href="https://www.youtube.com/watch?v=fcf5cBcmLyI" data-lity>
+        <img class="video-minia !object-center" src="../assets/HOMEPAGE/ShortAnim (2).png" alt="projet vidéo short anim 2">
+        <p class="projTextCat">AFTER EFFECT & ILLUSTRATOR</p>
+        <p class="projTextTitre">SHORT ANIMATION 2</p>
+      </a>
+    </div>
+
+    <div class="projImgDiv">
+      <a class="projLink" href="">
+        <img class="projImg" src="../assets/PRISMA/Prisma2Mockup.png" alt="projet prisma">
+        <p class="projTextCat">ILLUSTRATOR</p>
+        <p class="projTextTitre">PRISMA</p>
+      </a>
+      <a class="projLink" href="">
+        <img class="projImg" src="../assets/BLOSSOM/BlossomMockup.png" alt="projet blossom">
+        <p class="projTextCat">ILLUSTRATOR</p>
+        <p class="projTextTitre">BLOSSOM</p>
+      </a>
+    </div>    
+    
     <div class="projVid">
       <a class="projLink" href="https://www.youtube.com/watch?v=fcf5cBcmLyI" data-lity>
         <img class="video-minia" src="../assets/HOMEPAGE/CLIPDEDY1.png" alt="projet vidéo clip habituer">
@@ -55,6 +68,14 @@
         <img class="video-minia !object-center" src="../assets/HOMEPAGE/ShortAnim.png" alt="projet vidéo short animation">
         <p class="projTextCat">AFTER EFFECT & ILLUSTRATOR</p>
         <p class="projTextTitre">SHORT ANIMATION</p>
+      </a>
+    </div>
+
+    <div class="projVid">
+      <a class="projLink" href="https://www.youtube.com/watch?v=fcf5cBcmLyI" data-lity>
+        <img class="video-minia !object-[20%_21.8%]" src="../assets/HOMEPAGE/ShortAnim (3).png" alt="projet vidéo short anim 3">
+        <p class="projTextCat">AFTER EFFECT & ILLUSTRATOR</p>
+        <p class="projTextTitre">SHORT ANIMATION 3</p>
       </a>
     </div>
   </div>
