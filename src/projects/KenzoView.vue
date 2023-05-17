@@ -1,5 +1,5 @@
 <template>
-  <BigTitle title="ME CONTACTER" />
+  <BigTitle title="MAGAZINE KENZO" category="PRINT"/>
   <ContactContent />
 </template>
 
@@ -8,7 +8,7 @@ import BigTitle from '../components/BigTitle.vue'
 import ContactContent from '../components/ContactContent.vue'
 
 export default {
-  name: 'ProjetsView',
+  name: 'KenzoView',
   components: {
     BigTitle,
     ContactContent

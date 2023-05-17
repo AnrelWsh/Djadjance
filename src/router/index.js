@@ -4,6 +4,14 @@ import ProjetsView from '../views/ProjetsView.vue'
 import AproposView from '../views/AproposView.vue'
 import ContactView from '../views/ContactView.vue'
 
+
+import BlossomView from '../projects/BlossomView.vue'
+import KenzoView from '../projects/KenzoView.vue'
+import MakerWordView from '../projects/MakerWordView.vue'
+import PrismaView from '../projects/PrismaView.vue'
+import WaterPoloView from '../projects/WaterPoloView.vue'
+import RueilloiseView from '../projects/RueilloiseView.vue'
+
 const routes = [
   {
     path: '/',
@@ -30,11 +38,47 @@ const routes = [
     name: 'contact',
     component: ContactView
   },
+   
+
+
+  {
+    path: '/blossom',
+    name: 'blossom',
+    component: BlossomView
+  },
+  {
+    path: '/magazine-kenzo',
+    name: 'magazine-kenzo',
+    component: KenzoView
+  },
+  {
+    path: '/maker-word',
+    name: 'maker-word',
+    component: MakerWordView
+  },
+  {
+    path: '/prisma',
+    name: 'prisma',
+    component: PrismaView
+  },
+  {
+    path: '/water-polo',
+    name: 'water-polo',
+    component: WaterPoloView
+  },
+  {
+    path: '/la-rueilloise',
+    name: 'la-rueilloise',
+    component: RueilloiseView
+  },
 ]
 
 const router = createRouter({
   history: createWebHashHistory(),
-  routes
+  routes,
+  scrollBehavior(to, from, savedPosition) {
+    return { top: 0 }
+  }
 })
 
 export default router

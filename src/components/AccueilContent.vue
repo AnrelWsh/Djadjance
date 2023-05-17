@@ -17,16 +17,17 @@
     <h2 class="text-[32px] m-12 text-center">MES TRAVAUX</h2>
 
     <div class="projImgDiv">
-      <a class="projLink" href="">
+      <router-link class="projLink" to="/magazine-kenzo">
         <img class="projImg" src="../assets/Kenzo/PrintMockup.png" alt="projet kenzo">
         <p class="projTextCat">INDESIGN & PHOTOSHOP</p>
         <p class="projTextTitre">MAGAZINE KENZO</p>
-      </a>
-      <a class="projLink" href="">
+      </router-link>
+
+      <router-link class="projLink" to="/la-rueilloise">
         <img class="projImg" src="../assets/LA RUEILLOISE/MockupLarueilloise.png" alt="projet la rueilloise">
         <p class="projTextCat">INDESIGN & PHOTOSHOP</p>
         <p class="projTextTitre">LA RUEILLOISE</p>
-      </a>
+      </router-link>
     </div>
 
     <div class="projVid">
@@ -38,16 +39,17 @@
     </div>
 
     <div class="projImgDiv">
-      <a class="projLink" href="">
+      <router-link class="projLink" to="/water-polo">
         <img class="projImg" src="../assets/WATER-POLO/WaterpoloMockup.png" alt="projet water-polo">
         <p class="projTextCat">INDESIGN & PHOTOSHOP</p>
         <p class="projTextTitre">LOGO WATER-POLO</p>
-      </a>
-      <a class="projLink" href="">
+      </router-link>
+
+      <router-link class="projLink" to="/maker-word">
         <img class="projImg" src="../assets/MAKERWORD/minia.png" alt="projet makerword">
         <p class="projTextCat">INDESIGN & PHOTOSHOP</p>
         <p class="projTextTitre">MAKER WORD</p>
-      </a>
+      </router-link>
     </div>
 
     <div class="projVid">

@@ -1,5 +1,5 @@
 <template>
-  <BigTitle title="ME CONTACTER" />
+  <BigTitle title="BLOSSOM" category="LOGO"/>
   <ContactContent />
 </template>
 
@@ -8,7 +8,7 @@ import BigTitle from '../components/BigTitle.vue'
 import ContactContent from '../components/ContactContent.vue'
 
 export default {
-  name: 'ProjetsView',
+  name: 'RueilloiseView',
   components: {
     BigTitle,
     ContactContent
