@@ -1,16 +1,14 @@
 <template>
-  <HomePrez />
+  <BigTitle title="PROJETS" />
 </template>
 
 <script>
-import HomePrez from '../components/HomePrez.vue'
-import AccueilContent from '../components/AccueilContent.vue'
+import BigTitle from '../components/BigTitle.vue'
 
 export default {
-  name: 'ContactView',
+  name: 'ProjetsView',
   components: {
-    HomePrez,
-    AccueilContent
+    BigTitle
   }
 }
 </script>
