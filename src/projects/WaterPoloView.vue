@@ -1,17 +1,17 @@
 <template>
-  <BigTitle title="FÉDÉRATION FRANÇAISEcc DE WATER-POLO" category="LOGO"/>
-  <ContactContent />
+  <BigTitle title="FÉDÉRATION FRANÇAISE DE WATER-POLO" category="LOGO"/>
+  <WaterPoloContent />
 </template>
 
 <script>
 import BigTitle from '../components/BigTitle.vue'
-import ContactContent from '../components/ContactContent.vue'
+import WaterPoloContent from '../projects/WaterPoloContent.vue'
 
 export default {
   name: 'WaterPoloView',
   components: {
     BigTitle,
-    ContactContent
+    WaterPoloContent
   }
 }
 </script>

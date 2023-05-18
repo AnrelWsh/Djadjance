@@ -1,17 +1,17 @@
 <template>
   <BigTitle title="MAGAZINE KENZO" category="PRINT"/>
-  <ContactContent />
+  <KenzoContent />
 </template>
 
 <script>
 import BigTitle from '../components/BigTitle.vue'
-import ContactContent from '../components/ContactContent.vue'
+import KenzoContent from '../projects/KenzoContent.vue'
 
 export default {
   name: 'KenzoView',
   components: {
     BigTitle,
-    ContactContent
+    KenzoContent
   }
 }
 </script>
