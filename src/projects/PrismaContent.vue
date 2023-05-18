@@ -23,8 +23,15 @@
 </template>
 
 <script>
+import BigTitle from '../components/BigTitle.vue'
+import ContactContent from '../components/ContactContent.vue'
+
 export default {
-  name: 'BlossomContent'
+  name: 'BlossomContent',
+  components: {
+    BigTitle,
+    ContactContent
+  }
 }
 </script>
 
