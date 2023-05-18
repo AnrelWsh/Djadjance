@@ -53,10 +53,10 @@
     </div>
 
     <div class="projImgDiv">
-      <router-link class="projLink" to="/maker-word">
-        <img class="projImg" src="../assets/MAKERWORD/minia.png" alt="projet makerword">
+      <router-link class="projLink" to="/maker-world">
+        <img class="projImg" src="../assets/MAKERWORD/minia.png" alt="projet makerworld">
         <p class="projTextCat">INDESIGN & PHOTOSHOP</p>
-        <p class="projTextTitre">MAKER WORD</p>
+        <p class="projTextTitre">MAKER WORLD</p>
       </router-link>
       
       <router-link class="projLink" to="/water-polo">

@@ -1,5 +1,5 @@
 <template>
-  <BigTitle title="BLOSSOM" category="LOGO"/>
+  <BigTitle title="LA RUEILLOISE" category="LOGO"/>
   <ContactContent />
 </template>
 

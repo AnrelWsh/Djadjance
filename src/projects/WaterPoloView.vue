@@ -1,5 +1,5 @@
 <template>
-  <BigTitle title="FÉDÉRATION FRANÇAISE DE WATER-POLO" category="LOGO"/>
+  <BigTitle title="FÉDÉRATION FRANÇAISEcc DE WATER-POLO" category="LOGO"/>
   <ContactContent />
 </template>
 

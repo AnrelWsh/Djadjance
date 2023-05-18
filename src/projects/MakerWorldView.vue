@@ -1,5 +1,5 @@
 <template>
-  <BigTitle title="MAKER WORD" category="UX/UI"/>
+  <BigTitle title="MAKER WORLD" category="UX/UI"/>
   <ContactContent />
 </template>
 
@@ -8,7 +8,7 @@ import BigTitle from '../components/BigTitle.vue'
 import ContactContent from '../components/ContactContent.vue'
 
 export default {
-  name: 'MakerWordView',
+  name: 'MakerWorLdView',
   components: {
     BigTitle,
     ContactContent

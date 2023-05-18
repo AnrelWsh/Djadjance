@@ -7,7 +7,7 @@ import ContactView from '../views/ContactView.vue'
 
 import BlossomView from '../projects/BlossomView.vue'
 import KenzoView from '../projects/KenzoView.vue'
-import MakerWordView from '../projects/MakerWordView.vue'
+import MakerWorldView from '../projects/MakerWorldView.vue'
 import PrismaView from '../projects/PrismaView.vue'
 import WaterPoloView from '../projects/WaterPoloView.vue'
 import RueilloiseView from '../projects/RueilloiseView.vue'
@@ -52,9 +52,9 @@ const routes = [
     component: KenzoView
   },
   {
-    path: '/maker-word',
-    name: 'maker-word',
-    component: MakerWordView
+    path: '/maker-world',
+    name: 'maker-world',
+    component: MakerWorldView
   },
   {
     path: '/prisma',
