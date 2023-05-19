@@ -15,8 +15,8 @@
   </div>
 
   <div class="flex flex-row">
-    <div class="bg-mauveClair">
-      <img class="w-[63.8vw]" src="../assets/A PROPOS/DjadjaIllustration.png" alt="une très jolie illustration de moi">
+    <div class="w-[63.8vw] flex items-center justify-center">
+      <img class="w-[55%]" src="../assets/A PROPOS/djadjillus.svg" alt="une très jolie illustration de moi">
     </div>
 
     <div class="w-[6px] bg-gris"></div>
