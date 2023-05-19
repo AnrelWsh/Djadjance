@@ -1,23 +1,24 @@
 <template>
-  <div class="w-[80vw] m-auto flex flex-col items-center">
-    <div class=" flex flex-col items-center">
-      <div>
+  <div class="w-[80vw] m-auto flex flex-col items-center">     
+    <div class="w-[80vw] flex justify-between">
+      <div>     
         <h4>DESSIN</h4>
-        <img class="projImg" src="../assets/BLOSSOM/DessinBlossom.jpeg" alt="projet makerworld">
+        <img class="projImg bg-gris" src="../assets/MAKERWORD/iPhone-12-Pro-Max-Mockup-1.png" alt="projet makerworld">
       </div>
-      <div class="w-[80vw] flex justify-between">
-        <div>     
-          <h4>LOGO</h4>
-          <img class="projImg bg-gris" src="../assets/BLOSSOM/LogoBlossom.png" alt="projet makerworld">
-        </div>
-        <div class="flex flex-col items-end">
-          <h4>MOCKUP</h4>
-          <img class="projImg" src="../assets/BLOSSOM/BlossomMockup.png" alt="projet makerworld"></div>
+      <div class="flex flex-col items-end">
+        <h4>VECTORISATION</h4>
+        <img class="projImg" src="../assets/MAKERWORD/iPhone-12-Pro-Max-Mockup-4.png" alt="projet makerworld">
       </div>
     </div>
 
     <p>
-      Blossom est une marque de vêtements fictive que j'ai créé pour un projet scolaire. Le logo incarne la symbolique des trois pétales de cerisier rose : la beauté, la créativité et la confiance, créant ainsi une image de style raffiné et de sophistication pour ma marque de vêtements.
+      Dans le cadre de mon projet scolaire fictif, j'ai créé une application pour les créateurs de contenu tels que les éditeurs et les graphistes spécialisés dans l'univers japonais. Pour concevoir l'interface de cette application, je me suis inspiré de l'interface de "TikTok" pour plusieurs raisons.
+    </p>
+    <p>
+      Tout d'abord, l'interface de TikTok est connue pour sa simplicité et son accessibilité, ce qui permet aux utilisateurs de naviguer facilement à travers le contenu. J'ai voulu offrir une expérience similaire aux utilisateurs de mon application, en mettant l'accent sur une interface intuitive.
+    </p>
+    <p>
+      Ensuite, TikTok propose une mise en page centrée sur le contenu, mettant en avant les vidéos de manière visuellement attrayante. J'ai trouvé cette approche efficace pour mettre en valeur le travail des créateurs, c'est pourquoi j'ai adopté une mise en page similaire dans mon application, en mettant en avant les créations graphiques et les éditions des utilisateurs.
     </p>
   </div>
 </template>

@@ -3,21 +3,24 @@
     <div class=" flex flex-col items-center">
       <div>
         <h4>DESSIN</h4>
-        <img class="projImg" src="../assets/BLOSSOM/DessinBlossom.jpeg" alt="projet makerworld">
+        <img class="projImg" src="../assets/LA RUEILLOISE/DessinRueilloise.jpg" alt="projet la rueilloise">
       </div>
       <div class="w-[80vw] flex justify-between">
         <div>     
           <h4>LOGO</h4>
-          <img class="projImg bg-gris" src="../assets/BLOSSOM/LogoBlossom.png" alt="projet makerworld">
+          <img class="projImg bg-blanc" src="../assets/LA RUEILLOISE/LogoRueilloise.png" alt="projet la rueilloise">
         </div>
         <div class="flex flex-col items-end">
           <h4>MOCKUP</h4>
-          <img class="projImg" src="../assets/BLOSSOM/BlossomMockup.png" alt="projet makerworld"></div>
+          <img class="projImg" src="../assets/LA RUEILLOISE/MockupLarueilloise.png" alt="projet la rueilloise"></div>
       </div>
     </div>
 
     <p>
-      Blossom est une marque de vêtements fictive que j'ai créé pour un projet scolaire. Le logo incarne la symbolique des trois pétales de cerisier rose : la beauté, la créativité et la confiance, créant ainsi une image de style raffiné et de sophistication pour ma marque de vêtements.
+      Ce logo, je l'ai conçu dans le cadre d'une B.A.P (Bourse aux Projets) où nous étions un groupe de 8 personnes travaillant pour le Curious Lab' et ayant pour problématique : "Comment maintenir la piétonisation du centre-ville de Rueil-Malmaison tout en garantissant son attractivité ?". Pour répondre à cette problématique, nous avons créé une marque exclusive à Rueil-Malmaison, La Rueilloise, chargée de créer et de gérer des événements tout en communiquant de manière unique.
+    </p>
+    <p>
+      Pour ce logo j’ai décidé d’utiliser la colombe qui est un animal qui représente la liberté et la paix combiné avec un passage piéton. Ici le passage piéton représente la sécurité et la protection des piétons, mon logo a pour but de symboliser la création d’un environnement paisible et sûr pour les piétons.
     </p>
   </div>
 </template>

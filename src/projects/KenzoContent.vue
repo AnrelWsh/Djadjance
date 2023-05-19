@@ -1,23 +1,42 @@
 <template>
   <div class="w-[80vw] m-auto flex flex-col items-center">
     <div class=" flex flex-col items-center">
-      <div>
-        <h4>DESSIN</h4>
-        <img class="projImg" src="../assets/BLOSSOM/DessinBlossom.jpeg" alt="projet makerworld">
-      </div>
       <div class="w-[80vw] flex justify-between">
         <div>     
-          <h4>LOGO</h4>
-          <img class="projImg bg-gris" src="../assets/BLOSSOM/LogoBlossom.png" alt="projet makerworld">
+          <h4>COVER & BACK</h4>
+          <img class="projImg bg-gris" src="../assets/Kenzo/Cover&Back.png" alt="projet kenzo">
+        </div>
+        <div class="flex flex-col items-end">
+          <h4>PAGE 1 & 2</h4>
+          <img class="projImg" src="../assets/Kenzo/Page1&2.png" alt="projet kenzo">
+        </div>
+      </div>
+
+      <div class="w-[80vw] flex justify-between">
+        <div>     
+          <h4>PAGE 3 & 4</h4>
+          <img class="projImg bg-gris" src="../assets/Kenzo/Page3&4.png" alt="projet kenzo">
+        </div>
+        <div class="flex flex-col items-end">
+          <h4>PAGE 5 & 6</h4>
+          <img class="projImg" src="../assets/Kenzo/Page5&6.png" alt="projet kenzo">
+        </div>
+      </div>
+
+      <div class="w-[80vw] flex justify-between">
+        <div>     
+          <h4>PAGE 7 & 8</h4>
+          <img class="projImg bg-gris" src="../assets/Kenzo/Page7&8.png" alt="projet kenzo">
         </div>
         <div class="flex flex-col items-end">
           <h4>MOCKUP</h4>
-          <img class="projImg" src="../assets/BLOSSOM/BlossomMockup.png" alt="projet makerworld"></div>
+          <img class="projImg" src="../assets/Kenzo/PrintMockup.png" alt="projet kenzo">
+        </div>
       </div>
     </div>
 
     <p>
-      Blossom est une marque de vêtements fictive que j'ai créé pour un projet scolaire. Le logo incarne la symbolique des trois pétales de cerisier rose : la beauté, la créativité et la confiance, créant ainsi une image de style raffiné et de sophistication pour ma marque de vêtements.
+      Dans le cadre d'un projet scolaire, j'ai conçu un magazine dédié à la marque Kenzo et plus spécifiquement à son créateur, Kenzo Takada. Mon objectif principal avec ce magazine était de rendre hommage à Kenzo Takada et de permettre à notre audience de découvrir davantage sa personnalité et son parcours exceptionnel. Les photos que j'ai choisies pour ce magazine sont en noir et blanc, afin de mettre en valeur l'esthétique intemporelle de la marque. Pour souligner les éléments que je souhaitais mettre en avant sur ces photos, j'ai utilisé des bandes rouges.
     </p>
   </div>
 </template>

@@ -1,23 +1,18 @@
 <template>
   <div class="w-[80vw] m-auto flex flex-col items-center">
-    <div class=" flex flex-col items-center">
-      <div>
-        <h4>DESSIN</h4>
-        <img class="projImg" src="../assets/BLOSSOM/DessinBlossom.jpeg" alt="projet makerworld">
+    <div class="w-[80vw] flex justify-between">
+      <div>     
+        <h4>LOGO</h4>
+        <img class="projImg bg-blanc !object-contain" src="../assets/WATER-POLO/LogoWaterPolo.png" alt="projet water-polo">
       </div>
-      <div class="w-[80vw] flex justify-between">
-        <div>     
-          <h4>LOGO</h4>
-          <img class="projImg bg-gris" src="../assets/BLOSSOM/LogoBlossom.png" alt="projet makerworld">
-        </div>
-        <div class="flex flex-col items-end">
-          <h4>MOCKUP</h4>
-          <img class="projImg" src="../assets/BLOSSOM/BlossomMockup.png" alt="projet makerworld"></div>
+      <div class="flex flex-col items-end">
+        <h4>MOCKUP</h4>
+        <img class="projImg" src="../assets/WATER-POLO/WaterpoloMockup.png" alt="projet water-polo">
       </div>
     </div>
 
     <p>
-      Blossom est une marque de vêtements fictive que j'ai créé pour un projet scolaire. Le logo incarne la symbolique des trois pétales de cerisier rose : la beauté, la créativité et la confiance, créant ainsi une image de style raffiné et de sophistication pour ma marque de vêtements.
+      J'ai conçu ce logo, dans le cadre d'un projet scolaire, pour la branche "water-polo" de la Fédération Française de Natation. Il met en scène de manière simple et élégante deux mains prêtes à saisir une balle de water-polo. Les deux mains symbolisent l'esprit de collaboration et d'équipe, reflétant ainsi parfaitement l'essence de ce sport. Ce logo me tient particulièrement à cœur, étant un ancien poloïste (joueur de water-polo).
     </p>
   </div>
 </template>

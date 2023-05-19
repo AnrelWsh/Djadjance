@@ -1,17 +1,17 @@
 <template>
   <BigTitle title="LA RUEILLOISE" category="LOGO"/>
-  <ContactContent />
+  <RueilloiseContent />
 </template>
 
 <script>
 import BigTitle from '../components/BigTitle.vue'
-import ContactContent from '../components/ContactContent.vue'
+import RueilloiseContent from '../projects/RueilloiseContent.vue'
 
 export default {
   name: 'RueilloiseView',
   components: {
     BigTitle,
-    ContactContent
+    RueilloiseContent
   }
 }
 </script>

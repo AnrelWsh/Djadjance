@@ -1,23 +1,29 @@
 <template>
   <div class="w-[80vw] m-auto flex flex-col items-center">
     <div class=" flex flex-col items-center">
-      <div>
-        <h4>DESSIN</h4>
-        <img class="projImg" src="../assets/BLOSSOM/DessinBlossom.jpeg" alt="projet makerworld">
+      <div class="w-[80vw] flex justify-between">
+        <div>     
+          <h4>DESSIN</h4>
+          <img class="projImg bg-gris" src="../assets/PRISMA/DessinPrisma.jpeg" alt="projet prisma">
+        </div>
+        <div class="flex flex-col items-end">
+          <h4>ÉLÉMENTS GRAPHIQUES</h4>
+          <img class="projImg" src="../assets/PRISMA/PosterMockupPrisma.png" alt="projet prisma"></div>
       </div>
+      
       <div class="w-[80vw] flex justify-between">
         <div>     
           <h4>LOGO</h4>
-          <img class="projImg bg-gris" src="../assets/BLOSSOM/LogoBlossom.png" alt="projet makerworld">
+          <img class="projImg bg-gris" src="../assets/PRISMA/LogoPrisma.png" alt="projet prisma">
         </div>
         <div class="flex flex-col items-end">
           <h4>MOCKUP</h4>
-          <img class="projImg" src="../assets/BLOSSOM/BlossomMockup.png" alt="projet makerworld"></div>
+          <img class="projImg" src="../assets/PRISMA/Prisma2Mockup.png" alt="projet prisma"></div>
       </div>
     </div>
 
     <p>
-      Blossom est une marque de vêtements fictive que j'ai créé pour un projet scolaire. Le logo incarne la symbolique des trois pétales de cerisier rose : la beauté, la créativité et la confiance, créant ainsi une image de style raffiné et de sophistication pour ma marque de vêtements.
+      J'ai personnellement conçu ce logo dans le cadre d'un projet personnel fictif pour une marque spécialisée dans les affiches de design. Mon objectif était de créer un logo à la fois simple et distinctif, capable d'être facilement reconnu et mémorable. J'ai choisi une typographie moderne et épurée, caractérisée par des lignes nettes et des lettres bien définies.
     </p>
   </div>
 </template>

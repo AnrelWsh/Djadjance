@@ -1,17 +1,17 @@
 <template>
   <BigTitle title="PRISMA" category="LOGO"/>
-  <ContactContent />
+  <PrismaContent />
 </template>
 
 <script>
 import BigTitle from '../components/BigTitle.vue'
-import ContactContent from '../components/ContactContent.vue'
+import PrismaContent from '../projects/PrismaContent.vue'
 
 export default {
   name: 'PrismaView',
   components: {
     BigTitle,
-    ContactContent
+    PrismaContent
   }
 }
 </script>

@@ -3,16 +3,16 @@
     <div class=" flex flex-col items-center">
       <div>
         <h4>DESSIN</h4>
-        <img class="projImg" src="../assets/BLOSSOM/DessinBlossom.jpeg" alt="projet makerworld">
+        <img class="projImg" src="../assets/BLOSSOM/DessinBlossom.jpeg" alt="projet blossom">
       </div>
       <div class="w-[80vw] flex justify-between">
         <div>     
           <h4>LOGO</h4>
-          <img class="projImg bg-gris" src="../assets/BLOSSOM/LogoBlossom.png" alt="projet makerworld">
+          <img class="projImg bg-gris" src="../assets/BLOSSOM/LogoBlossom.png" alt="projet blossom">
         </div>
         <div class="flex flex-col items-end">
           <h4>MOCKUP</h4>
-          <img class="projImg" src="../assets/BLOSSOM/BlossomMockup.png" alt="projet makerworld"></div>
+          <img class="projImg" src="../assets/BLOSSOM/BlossomMockup.png" alt="projet blossom"></div>
       </div>
     </div>
 

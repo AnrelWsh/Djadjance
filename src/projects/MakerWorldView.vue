@@ -1,17 +1,17 @@
 <template>
   <BigTitle title="MAKER WORLD" category="UX/UI"/>
-  <ContactContent />
+  <MakerWorldContent />
 </template>
 
 <script>
 import BigTitle from '../components/BigTitle.vue'
-import ContactContent from '../components/ContactContent.vue'
+import MakerWorldContent from '../projects/MakerWorldContent.vue'
 
 export default {
-  name: 'MakerWorLdView',
+  name: 'MakerWorldView',
   components: {
     BigTitle,
-    ContactContent
+    MakerWorldContent
   }
 }
 </script>

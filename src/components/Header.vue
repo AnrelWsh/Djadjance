@@ -1,5 +1,5 @@
 <template>
-  <nav class="flex flex-row items-center text-[24px] border-b-4 border-gris">
+  <nav class="flex flex-row items-center text-[24px] border-b-4 border-gris select-none">
     <div class="flex flex-row items-center w-[70vw] py-4">
       <a href="">
         <img class="w-[5vw] mx-32" src="../assets/Logo/Logo.png" alt="logo">  
