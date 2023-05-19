@@ -1,5 +1,7 @@
 <template>
-  <div class="text-2xl bg-gris p-[5vw] flex flex-col">
+  <div :class="{
+    'mt-[10vw]': shouldApplyMargin,
+    'text-2xl bg-gris p-[5vw] flex flex-col': true}">
     <div class="flex items-center gap-[10vw]">
       <div class="bg-mauveClair rounded-full w-[15vw] h-[15vw]"></div>
 
@@ -31,7 +33,12 @@
 
 <script>
 export default {
-  name: 'Footer'
+  name: 'Footer',
+  computed: {
+    shouldApplyMargin() {
+      return this.$route.name !== 'apropos';
+    }
+  }
 }
 </script>
 

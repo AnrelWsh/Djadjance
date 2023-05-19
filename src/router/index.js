@@ -4,6 +4,7 @@ import ProjetsView from '../views/ProjetsView.vue'
 import AproposView from '../views/AproposView.vue'
 import ContactView from '../views/ContactView.vue'
 
+import Footer from '../components/Footer.vue'
 
 import BlossomView from '../projects/BlossomView.vue'
 import KenzoView from '../projects/KenzoView.vue'
@@ -36,7 +37,8 @@ const routes = [
   {
     path: '/contact',
     name: 'contact',
-    component: ContactView
+    component: ContactView,
+    meta: { hideFooter: true }
   },
    
 
@@ -80,5 +82,6 @@ const router = createRouter({
     return { top: 0 }
   }
 })
+
 
 export default router

@@ -1,6 +1,6 @@
 <template>
   <Header />
-  <Footer />
+  <Footer v-if="!$route.meta.hideFooter" />
 </template>
 
 <script>
