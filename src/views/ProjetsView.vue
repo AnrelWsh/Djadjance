@@ -1,20 +1,20 @@
 <template>
   <BigTitle title="PROJETS" />
   <ProjetsNav />
-  <ProjetsContent />
+  <ProjetsAll />
 </template>
 
 <script>
 import BigTitle from '../components/BigTitle.vue'
 import ProjetsNav from '../components/ProjetsNav.vue'
-import ProjetsContent from '../components/ProjetsContent.vue'
+import ProjetsAll from '../components/ProjetsAll.vue'
 
 export default {
   name: 'ProjetsView',
   components: {
     BigTitle,
     ProjetsNav,
-    ProjetsContent
+    ProjetsAll
   }
 }
 </script>

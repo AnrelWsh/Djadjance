@@ -4,8 +4,13 @@
     <h2 class="text-[32px] m-12 text-center">MON SHOWREEL</h2>
 
     <div class="projVid">
-      <a class="projLink" href="https://www.youtube.com/watch?v=fcf5cBcmLyI" data-lity>
+      <a class="projLink" href="https://vimeo.com/827722526?share=copy" data-lity>
         <img class="video-minia" src="../assets/HOMEPAGE/ShowReel.png" alt="projet vidéo showreel">
+        <video width="320" height="240" controls>
+          <source type="video/mp4" 
+          src="https://vimeo.com/827722526?share=copy">
+      </video>
+      <iframe src="https://vimeo.com/827722526?share=copy" width="320" height="240" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
         <p class="projTextCat">AFTER EFFECT & ILLUSTRATOR</p>
         <p class="projTextTitre">SHOWREEL</p>
       </a>

@@ -32,12 +32,12 @@
 
 
     <div class="flex border-t-[5px] border-gris">
-      <div class="bigBoxes bg-mauveClair">
-        <img src="../assets/FOOTER/linkedin.svg" alt="">
-      </div>
-      <div class="bigBoxes bg-gris">
-        <img src="../assets/FOOTER/behance.svg" alt="">
-      </div>
+      <a href="https://www.linkedin.com/in/yanis-djadja-006131276/" class="bigBoxes bg-mauveClair">
+        <img src="../assets/FOOTER/linkedin.svg" alt="linkedin logo">
+      </a>
+      <a href="https://www.behance.net/yanisdjadja1" class="bigBoxes bg-gris">
+        <img src="../assets/FOOTER/behance.svg" alt="behance logo">
+      </a>
     </div>
   </div>
 </template>

@@ -84,8 +84,10 @@
   </div>
 </template>
 
+import  from ''
+
 <script>
 export default {
-  name: 'ProjetsContent'
+  name: 'ProjetsAll'
 }
 </script>
