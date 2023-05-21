@@ -1,4 +1,7 @@
 <template>
+  <BigTitle title="PROJETS - PRINTS" />
+  <ProjetsNav />
+
   <div class="projImgDiv">
     <router-link class="projLink" to="/magazine-kenzo">
       <img class="projImg" src="../assets/Kenzo/PrintMockup.png" alt="projet kenzo">
@@ -9,7 +12,14 @@
 </template>
 
 <script>
+import BigTitle from '../components/BigTitle.vue'
+import ProjetsNav from '../components/ProjetsNav.vue'
+
 export default {
-  name: 'ProjetsPrints'
+  name: 'ProjetsPrints',
+  components: {
+    BigTitle,
+    ProjetsNav
+  }
 }
 </script>

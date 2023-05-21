@@ -1,4 +1,7 @@
 <template>
+  <BigTitle title="PROJETS - UX/UI" />
+  <ProjetsNav />
+
   <div class="projImgDiv">
     <router-link class="projLink" to="/maker-world">
       <img class="projImg" src="../assets/MAKERWORD/minia.png" alt="projet maker world">
@@ -9,7 +12,14 @@
 </template>
 
 <script>
+import BigTitle from '../components/BigTitle.vue'
+import ProjetsNav from '../components/ProjetsNav.vue'
+
 export default {
-  name: 'ProjetsUXUI'
+  name: 'ProjetsUXUI',
+  components: {
+    BigTitle,
+    ProjetsNav
+  }
 }
 </script>

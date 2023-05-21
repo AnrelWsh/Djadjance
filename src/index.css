@@ -25,6 +25,7 @@
 .projVid{
     width: 80vw;
     margin: auto;
+    user-select: none;
 }
 
 .video-minia{
@@ -42,6 +43,7 @@
     justify-content: space-between;
     width: 80vw;
     margin: auto;
+    user-select: none;
 }
 
 .projImg {
@@ -53,6 +55,7 @@
 .projLink{
     position: relative;
     margin-bottom: 32px;
+    cursor: pointer;
 }
 
 .projLink:before {
@@ -87,10 +90,36 @@
     left: 12px;
     color: rgba(235, 235, 242, 1);
     opacity: 0;
+    user-select: none;
 }
 
 .projLink:hover .projTextCat,
 .projLink:hover .projTextTitre{
     transition: width 2s ease-out;
     opacity: 1;
+}
+
+#projetsNav a.router-link-exact-active{
+    text-decoration: underline;
+}
+
+  
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 5;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6);
+    cursor: pointer;
+}
+
+#modal-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    user-select: none;
 }

@@ -22,97 +22,127 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: AccueilView
+    component: AccueilView,
+    meta: {
+      scrollToTop: true
+    }
   },
   {
     path: '/accueil',
     name: 'accueil',
-    component: AccueilView
+    component: AccueilView,
+    meta: {
+      scrollToTop: true
+    }
   },
   {
     path: '/projets',
     name: 'projets',
-    component: ProjetsView
+    component: ProjetsView,
+    meta: {
+      scrollToTop: true
+    }
   },
   {
     path: '/apropos',
     name: 'apropos',
-    component: AproposView
+    component: AproposView,
+    meta: {
+      scrollToTop: true
+    }
   },  
   {
     path: '/contact',
     name: 'contact',
     component: ContactView,
-    meta: { hideFooter: true }
+    meta: { 
+      hideFooter: true,
+      scrollToTop : true
+    }
   },
    
 
 
 
   {
-    path: '/all',
-    name: 'all',
-    component: ProjetsAll,
+    path: '/projets',
+    name: 'projets',
+    component: ProjetsAll
   },
   {
     path: '/motion-design',
     name: 'motion-design',
-    component: ProjetsMotion,
+    component: ProjetsMotion
   },
   {
     path: '/prints',
     name: 'prints',
-    component: ProjetsPrints,
+    component: ProjetsPrints
   },
   {
     path: '/ux-ui',
     name: 'ux-ui',
-    component: ProjetsUXUI,
+    component: ProjetsUXUI
   },
   {
     path: '/logos',
     name: 'logos',
-    component: ProjetsLogos,
+    component: ProjetsLogos
   },
   {
     path: '/montages',
     name: 'montages',
-    component: ProjetsMontages,
+    component: ProjetsMontages
   },
-
-
-
 
 
   {
     path: '/blossom',
     name: 'blossom',
-    component: BlossomView
+    component: BlossomView,
+    meta: {
+      scrollToTop: true
+    }
   },
   {
     path: '/magazine-kenzo',
     name: 'magazine-kenzo',
-    component: KenzoView
+    component: KenzoView,
+    meta: {
+      scrollToTop: true
+    }
   },
   {
     path: '/maker-world',
     name: 'maker-world',
-    component: MakerWorldView
+    component: MakerWorldView,
+    meta: {
+      scrollToTop: true
+    }
   },
   {
     path: '/prisma',
     name: 'prisma',
-    component: PrismaView
+    component: PrismaView,
+    meta: {
+      scrollToTop: true
+    }
   },
   {
     path: '/water-polo',
     name: 'water-polo',
-    component: WaterPoloView
+    component: WaterPoloView,
+    meta: {
+      scrollToTop: true
+    }
   },
   {
     path: '/la-rueilloise',
     name: 'la-rueilloise',
-    component: RueilloiseView
+    component: RueilloiseView,
+    meta: {
+      scrollToTop: true
+    }
   },
 ]
 
@@ -120,7 +150,12 @@ const router = createRouter({
   history: createWebHashHistory(),
   routes,
   scrollBehavior(to, from, savedPosition) {
-    return { top: 0 }
+    if (to.meta.scrollToTop) {
+      return { top: 0 }; 
+    } 
+    if (savedPosition) {
+      return savedPosition;
+    }
   }
 })
 

@@ -1,4 +1,7 @@
 <template>
+  <BigTitle title="PROJETS - LOGOS" />
+  <ProjetsNav />
+
   <div>
     <div class="projImgDiv">   
       <router-link class="projLink" to="/prisma">
@@ -32,7 +35,14 @@
 </template>
 
 <script>
+import BigTitle from '../components/BigTitle.vue'
+import ProjetsNav from '../components/ProjetsNav.vue'
+
 export default {
-  name: 'ProjetsLogos'
+  name: 'ProjetsLogos',
+  components: {
+    BigTitle,
+    ProjetsNav
+  }
 }
 </script>
