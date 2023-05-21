@@ -1,7 +1,7 @@
 <template>
   <div class="flex flex-row border-b-4 border-gris">
     <div class="bg-mauveClair">
-      <img class="w-[180vw]" src="../assets/A PROPOS/DjadjaPics.jpg" alt="une très jolie photo de moi">
+      <img class="w-[180vw]" src="../assets/A-PROPOS/DjadjaPics.jpg" alt="une très jolie photo de moi">
     </div>
 
     <div class="w-[16px] bg-gris"></div>
@@ -16,7 +16,7 @@
 
   <div class="flex flex-row">
     <div class="w-[63.8vw] flex items-center justify-center">
-      <img class="w-[55%]" src="../assets/A PROPOS/djadjillus.svg" alt="une très jolie illustration de moi">
+      <img class="w-[55%]" src="../assets/A-PROPOS/djadjillus.svg" alt="une très jolie illustration de moi">
     </div>
 
     <div class="w-[6px] bg-gris"></div>

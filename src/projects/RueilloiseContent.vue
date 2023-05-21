@@ -3,16 +3,16 @@
     <div class=" flex flex-col items-center">
       <div>
         <h4>DESSIN</h4>
-        <img class="projImg" src="../assets/LA RUEILLOISE/DessinRueilloise.jpg" alt="projet la rueilloise">
+        <img class="projImg" src="../assets/LA-RUEILLOISE/DessinRueilloise.jpg" alt="projet la rueilloise">
       </div>
       <div class="w-[80vw] flex justify-between">
         <div>     
           <h4>LOGO</h4>
-          <img class="projImg bg-blanc" src="../assets/LA RUEILLOISE/LogoRueilloise.png" alt="projet la rueilloise">
+          <img class="projImg bg-blanc" src="../assets/LA-RUEILLOISE/LogoRueilloise.png" alt="projet la rueilloise">
         </div>
         <div class="flex flex-col items-end">
           <h4>MOCKUP</h4>
-          <img class="projImg" src="../assets/LA RUEILLOISE/MockupLarueilloise.png" alt="projet la rueilloise"></div>
+          <img class="projImg" src="../assets/LA-RUEILLOISE/MockupLarueilloise.png" alt="projet la rueilloise"></div>
       </div>
     </div>
 

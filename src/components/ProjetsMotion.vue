@@ -15,7 +15,7 @@
     </div>
 
     <div class="projVid projLink">
-      <img class="video-minia !object-center" src="../assets/HOMEPAGE/ShortAnim (2).png" alt="projet vidéo short anim 2">
+      <img class="video-minia !object-center" src="../assets/HOMEPAGE/ShortAnim-(2).png" alt="projet vidéo short anim 2">
       <div class="modal" id="modal2"> 
         <div id="modal-content">
           <iframe src="https://player.vimeo.com/video/827723781?h=18245a6560&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="width:21vw;height:80vh;" title="Short Animation 2"></iframe>
@@ -37,7 +37,7 @@
     </div>
 
     <div class="projVid projLink">
-      <img class="video-minia !object-[20%_21.8%]" src="../assets/HOMEPAGE/ShortAnim (3).png" alt="projet vidéo short anim 3">
+      <img class="video-minia !object-[20%_21.8%]" src="../assets/HOMEPAGE/ShortAnim-(3).png" alt="projet vidéo short anim 3">
       <div class="modal" id="modal4"> 
         <div id="modal-content">
           <iframe src="https://player.vimeo.com/video/827725953?h=9e636edb9c&amp;badge=0&amp;autopause=0&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen" allowfullscreen style="width:21vw;height:80vh;" title="Short Animation 3"></iframe>

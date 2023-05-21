@@ -11,7 +11,7 @@
       </router-link>
 
       <router-link class="projLink" to="/la-rueilloise">
-        <img class="projImg" src="../assets/LA RUEILLOISE/MockupLarueilloise.png" alt="projet la rueilloise">
+        <img class="projImg" src="../assets/LA-RUEILLOISE/MockupLarueilloise.png" alt="projet la rueilloise">
         <p class="projTextCat">INDESIGN & PHOTOSHOP</p>
         <p class="projTextTitre">LA RUEILLOISE</p>
       </router-link>
