@@ -124,7 +124,7 @@
     user-select: none;
 }
 
-@media screen and (max-width: 900px) {
+/*@media screen and (max-width: 900px) {
     .projLink:before {
         width: 100%;
     }
@@ -156,4 +156,4 @@
     .video-minia{
         height: 30dvh;
     }
-}
+}*/
