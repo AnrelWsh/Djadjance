@@ -3,7 +3,9 @@
     'mt-[10vw]': shouldApplyMargin,
     'text-2xl bg-gris p-[5vw] flex flex-col': true}">
     <div class="flex items-center gap-[10vw]">
-      <div class="bg-mauveClair rounded-full w-[15vw] h-[15vw]"></div>
+      <div class="bg-mauveClair rounded-full w-[15vw] h-[15vw]">
+        <img class="rounded-full w-[15vw] h-[15vw] object-none object-[80%_28%]" src="../assets/FOOTER/PhotoFooter.jpg" alt="jolie photo de moi">
+      </div>
 
       <div class="flex flex-col gap-4">
         <div>
