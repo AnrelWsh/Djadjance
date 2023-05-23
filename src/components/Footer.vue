@@ -1,7 +1,7 @@
 <template>
   <div :class="{
     'mt-[10vw]': shouldApplyMargin,
-    'text-2xl bg-gris p-[5vw] flex flex-col': true}">
+    'text-2xl bg-gris p-[5vw] flex flex-col relative': true}">
     <div class="flex items-center gap-[10vw]">
       <div class="bg-mauveClair rounded-full w-[15vw] h-[15vw]">
         <img class="rounded-full w-[15vw] h-[15vw] object-none object-[80%_28%]" src="../assets/FOOTER/PhotoFooter.jpg" alt="jolie photo de moi">
@@ -29,7 +29,7 @@
     </div>
 
 
-    <img class="w-[7vw] self-end mt-[-100px]" src="../assets/Logo/logo.svg" alt="logo">
+    <img class="w-[7vw] absolute bottom-[3vw] right-[7vw]" src="../assets/Logo/logo.svg" alt="logo">
   </div>
 </template>
 
