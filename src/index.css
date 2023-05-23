@@ -123,3 +123,37 @@
     transform: translate(-50%, -50%);
     user-select: none;
 }
+
+@media screen and (max-width: 900px) {
+    .projLink:before {
+        width: 100%;
+    }
+
+    .projTextCat,
+    .projTextTitre{
+        opacity: 1;
+    }
+
+    .projImgDiv{
+        flex-direction: column;
+    }
+
+    .projImg{
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .projTextTitre{
+        top: 17vw;
+        font-size: 26px;
+    }
+
+    .projImg{
+        height: 30dvh;
+    }
+
+    .video-minia{
+        height: 30dvh;
+    }
+}
