@@ -1,15 +1,15 @@
 <template>
   <div :class="{
     'mt-[10vw]': shouldApplyMargin,
-    'text-2xl bg-gris p-[5vw] flex flex-col relative': true}">
+    'md:text-2xl text-xl bg-gris p-[5vw] flex flex-col relative': true}">
     <div class="flex items-center gap-[10vw]">
-      <div class="bg-mauveClair rounded-full w-[15vw] h-[15vw]">
-        <img class="rounded-full w-[15vw] h-[15vw] object-none object-[80%_28%]" src="../assets/FOOTER/PhotoFooter.jpg" alt="jolie photo de moi">
+      <div>
+        <img class="rounded-full w-[15vw] h-[15vw] object-cover imgFooter" src="../assets/FOOTER/PhotoFooter.svg" alt="jolie photo de moi">
       </div>
 
       <div class="flex flex-col gap-4">
         <div>
-          <p class="text-[32px]"><span class="text-mauveClair">DJADJA</span> YANIS</p>
+          <p class="md:text-[32px] text-2xl"><span class="text-mauveClair">DJADJA</span> YANIS</p>
           <p> Motion Design</p>
         </div>
 
@@ -47,5 +47,11 @@ export default {
 <style scoped>
 p, a{
   color: rgba(235, 235, 242, 1);
+}
+
+@media screen and (max-width: 900px) {
+  .imgFooter{
+    display: none;
+  }
 }
 </style>
