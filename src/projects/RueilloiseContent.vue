@@ -1,6 +1,6 @@
 <template>
   <div class="w-[80vw] m-auto flex flex-col items-center">
-    <div class=" flex flex-col items-center">
+    <div class=" flex md:flex-col flex-col-reverse items-center">
       <div>
         <h4>DESSIN</h4>
         <img class="projImg" src="../assets/LA-RUEILLOISE/DessinRueilloise.jpg" alt="projet la rueilloise">
@@ -44,5 +44,14 @@ p{
   font-family: "Grotesk-Reg";
   margin-top: 64px;
   line-height: 1;
+}
+
+@media screen and (max-width: 900px) {
+  h4{
+    font-size: 26px;
+  }
+  p{
+    font-size: 24px;
+  }
 }
 </style>

@@ -37,4 +37,13 @@ p{
   margin-top: 64px;
   line-height: 1;
 }
+
+@media screen and (max-width: 900px) {
+  h4{
+    font-size: 26px;
+  }
+  p{
+    font-size: 24px;
+  }
+}
 </style>
