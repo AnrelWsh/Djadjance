@@ -35,3 +35,16 @@ export default {
   name: 'ProjetsNav'
 }
 </script>
+
+<style scoped>
+
+  #projetsNav{
+    flex-direction: row;
+  }
+
+  @media screen and (max-width: 900px) {
+    #projetsNav{
+      flex-direction: column;
+    }
+  }
+</style>
