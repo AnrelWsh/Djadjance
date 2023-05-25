@@ -4,7 +4,7 @@
     'md:text-2xl text-xl bg-gris p-[5vw] flex flex-col relative': true}">
     <div class="flex items-center gap-[10vw]">
       <div>
-        <img class="rounded-full w-[15vw] h-[15vw] object-cover imgFooter" src="../assets/FOOTER/photoFooter.svg" alt="jolie photo de moi">
+        <img class="rounded-full w-[15vw] h-[15vw] object-cover imgFooter" src="../assets/FOOTER/photoFooter.png" alt="jolie photo de moi">
       </div>
 
       <div class="flex flex-col gap-4">
