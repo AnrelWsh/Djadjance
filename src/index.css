@@ -48,7 +48,7 @@
 
 .projImg {
     width: 35vw;
-    height: 35vw;
+    height: 50dvh;
     object-fit: cover;
 }
 
@@ -61,7 +61,7 @@
 .projLink:before {
     content: '';
     display: block;
-    position: absolute;;
+    position: absolute;
     height: 100%;
     bottom: 0; 
     width: 0%;
@@ -76,7 +76,7 @@
 .projTextCat{
     font-family: "Grotesk-Reg";
     top: 2vh;
-    font-size: 24px; 
+    font-size: 24px;
 }
 
 .projTextTitre{

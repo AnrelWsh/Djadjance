@@ -12,6 +12,9 @@ export default {
         'mauveClair': 'rgba(189, 202, 242, 1)'
       },
     },
+    screens: {
+      '900': '900px',
+    },
   },
   plugins: [],
 }

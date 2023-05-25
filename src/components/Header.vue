@@ -4,7 +4,7 @@
       <a href="">
         <img class="w-[7vw] lg:mx-32 mx-8" src="../assets/Logo/Logo.png" alt="logo">  
       </a>
-      <div class="flex flex-row sm:gap-16 gap-4 lg:px-16 px-8">
+      <div class="flex flex-row justify-evenly w-[50vw] sm:gap-16 gap-4 lg:px-16 px-8">
         <router-link class="navTitle" to="/accueil">Accueil</router-link>
         <router-link class="navTitle" to="/projets">Projets</router-link>
         <router-link class="navTitle" to="/apropos">A propos</router-link>
